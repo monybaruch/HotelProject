@@ -72,3 +72,89 @@ p {
   background-color: rgb(178, 171, 171);
   color: rgb(234, 114, 114);
 }
+.primary-text {
+  color: rgb(234, 114, 114);
+}
+.lead {
+  font-size: 24px;
+}
+
+.btn-links {
+  display: inline-block;
+  font-size: 20px;
+  color: whitesmoke;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn-links:hover {
+  background: rgb(234, 114, 114);
+  color: #333;
+}
+
+.btn-light {
+  background: whitesmoke;
+  color: #333;
+}
+.bg-dark {
+  background: #333;
+  color: whitesmoke;
+}
+.bg-light {
+  background: whitesmoke;
+  color: #333;
+}
+.bg-primary {
+  color: rgb(234, 114, 114);
+}
+
+/* showcase area styling */
+
+.showcase {
+  background: url(../images/pexels-andrew-neel-3201763.jpg) no-repeat center
+    center/cover;
+  height: 600px;
+}
+
+.showcase-content {
+  color: black;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.showcase .showcase-content h2 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+.showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.6em;
+}
+
+/* info section styling */
+
+.info {
+  height: 400px;
+}
+
+.info-img {
+  background: url(../images/pexels-andrea-piacquadio-3771110.jpg) no-repeat;
+  width: 50%;
+  float: left;
+  min-height: 100%;
+}
+
+.info-content {
+  width: 50%;
+  float: right;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+.info-content p {
+  padding-bottom: 30px;
+}
