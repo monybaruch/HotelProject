@@ -37,8 +37,6 @@ p {
 /* Navbar */
 
 .navbar {
-  color: whitesmoke;
-  background: rgb(71, 71, 71);
   overflow: auto;
 }
 
@@ -106,7 +104,12 @@ p {
   color: #333;
 }
 .bg-primary {
-  color: rgb(234, 114, 114);
+  color: #333;
+  background: rgb(234, 114, 114);
+}
+
+.clearFloat {
+  clear: both;
 }
 
 /* showcase area styling */
@@ -157,4 +160,24 @@ p {
 
 .info-content p {
   padding-bottom: 30px;
+}
+
+/* Features styling */
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 20px;
+}
+
+/* Footer sytling  */
+
+.main-footer {
+  text-align: center;
+  padding: 20px;
 }
