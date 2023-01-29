@@ -241,3 +241,31 @@ p {
   text-align: center;
   opacity: 0.7;
 }
+
+/* contact page styling */
+
+.form-items {
+  margin-bottom: 20px;
+}
+.form-items label {
+  display: block;
+  margin-bottom: 10px;
+}
+.form-items input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+.form-items input:focus,
+textarea:focus {
+  border-color: rgb(234, 114, 114);
+  outline: none;
+}
+.form-items textarea {
+  height: 200px;
+}
+
+/* .form {
+  text-align: center;
+} */
