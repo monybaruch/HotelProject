@@ -36,40 +36,42 @@ p {
 
 /* Navbar */
 
-.navbar {
+#navbar {
+  background: #333;
+  color: #fff;
   overflow: auto;
 }
 
-.navbar a {
-  color: whitesmoke;
-  float: left;
+#navbar a {
+  color: #fff;
 }
 
-.navbar h1 {
+#navbar .logo {
   float: left;
   padding-top: 20px;
 }
 
-.navbar ul {
-  float: right;
+#navbar ul {
   list-style: none;
+  float: right;
 }
 
-.navbar ul li {
+#navbar ul li {
   float: left;
 }
 
-.navbar ul li a {
+#navbar ul li a {
   display: block;
   padding: 20px;
   text-align: center;
 }
 
-.navbar ul li a:hover,
-.navbar ul li a.current {
-  background-color: rgb(178, 171, 171);
-  color: rgb(234, 114, 114);
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #444;
+  color: #f7c08a;
 }
+
 .primary-text {
   color: rgb(234, 114, 114);
 }
@@ -217,7 +219,7 @@ p {
 
 /* testimonials styling */
 .items {
-  height: 600px;
+  height: 100%;
   background: brown;
   padding-top: 40px;
 }
